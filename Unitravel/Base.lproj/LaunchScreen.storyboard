@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash_back" translatesAutoresizingMaskIntoConstraints="NO" id="y1p-tQ-kMC">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="UNITRAVEL" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O4d-Cc-hFW">
+                                <rect key="frame" x="0.0" y="528" width="375" height="42"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="graduate_logo_v" translatesAutoresizingMaskIntoConstraints="NO" id="eiJ-Xv-b2g">
+                                <rect key="frame" x="87.5" y="233.5" width="200" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="OFd-p5-JrY"/>
+                                    <constraint firstAttribute="width" constant="200" id="ks5-qG-ORE"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="O4d-Cc-hFW" firstAttribute="top" secondItem="eiJ-Xv-b2g" secondAttribute="bottom" constant="94.5" id="8Fd-WH-207"/>
+                            <constraint firstItem="O4d-Cc-hFW" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="AZi-iz-IGQ"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="y1p-tQ-kMC" secondAttribute="bottom" id="Fa4-W0-24C"/>
+                            <constraint firstItem="eiJ-Xv-b2g" firstAttribute="centerY" secondItem="y1p-tQ-kMC" secondAttribute="centerY" id="IV9-wa-t6c"/>
+                            <constraint firstAttribute="trailing" secondItem="y1p-tQ-kMC" secondAttribute="trailing" id="Rav-dB-1T8"/>
+                            <constraint firstItem="eiJ-Xv-b2g" firstAttribute="centerX" secondItem="y1p-tQ-kMC" secondAttribute="centerX" id="Y8I-00-UbP"/>
+                            <constraint firstItem="y1p-tQ-kMC" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="cty-CH-0EK"/>
+                            <constraint firstAttribute="trailing" secondItem="O4d-Cc-hFW" secondAttribute="trailing" id="k5O-HG-WvB"/>
+                            <constraint firstItem="y1p-tQ-kMC" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="mry-zK-Wyw"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="graduate_logo_v" width="1546" height="1844"/>
+        <image name="splash_back" width="558" height="900"/>
+    </resources>
+</document>

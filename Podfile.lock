@@ -1,0 +1,63 @@
+PODS:
+  - Bolts (1.8.4):
+    - Bolts/AppLinks (= 1.8.4)
+    - Bolts/Tasks (= 1.8.4)
+  - Bolts/AppLinks (1.8.4):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.8.4)
+  - DatePickerDialog (1.1.7)
+  - DKImagePickerController (3.5.1):
+    - DKImagePickerController/Camera (= 3.5.1)
+    - DKImagePickerController/ImageManager (= 3.5.1)
+  - DKImagePickerController/Camera (3.5.1)
+  - DKImagePickerController/ImageManager (3.5.1)
+  - FBSDKCoreKit (4.22.0):
+    - Bolts (~> 1.7)
+  - FBSDKLoginKit (4.22.0):
+    - FBSDKCoreKit
+  - Fusuma (1.0.3)
+  - IQKeyboardManagerSwift (4.0.9)
+  - MBProgressHUD (1.0.0)
+  - Parse (1.14.4):
+    - Bolts/Tasks (~> 1.8)
+  - ParseFacebookUtilsV4 (1.11.1):
+    - Bolts/Tasks (>= 1.6)
+    - FBSDKCoreKit (~> 4.10)
+    - FBSDKLoginKit (~> 4.10)
+    - FBSDKTVOSKit (~> 4.10)
+    - Parse (~> 1.12)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - Stripe (10.1.0)
+
+DEPENDENCIES:
+  - DatePickerDialog
+  - DKImagePickerController
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - Fusuma
+  - IQKeyboardManagerSwift
+  - MBProgressHUD
+  - Parse
+  - ParseFacebookUtilsV4
+  - SDWebImage
+  - Stripe
+
+SPEC CHECKSUMS:
+  Bolts: 8a7995239dbe724f9cba2248b766d48b7ebdd322
+  DatePickerDialog: bd5e7e92e4da2c6a8966b28d5f5d8f335d6c2c63
+  DKImagePickerController: 8db7e76a88a7a66a893ba30e935cc4c9bb7ed335
+  FBSDKCoreKit: c693bad19feb225469eeff14452ba364522ee48b
+  FBSDKLoginKit: 1fa529fc622d7b32ebeaffbecd377180833c6d30
+  Fusuma: 60ed1dd51a3b3610960219df9862c83f03304ce1
+  IQKeyboardManagerSwift: 2eefe6c429b86aa08bfbc1b5c891164d754adf91
+  MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
+  Parse: b0aa91d2c435e53d4a9af26e741e014c9b35c42e
+  ParseFacebookUtilsV4: 2f30c2b7021c8005d3042781da7ef87d06589421
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  Stripe: 1c7aa951a075cced500a919d92b687b35d410705
+
+PODFILE CHECKSUM: 4a1d0a0a12bd1e5f01d1837abea5c94e0e75dd59
+
+COCOAPODS: 1.2.0.beta.1
